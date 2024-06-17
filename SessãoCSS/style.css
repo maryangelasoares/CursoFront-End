@@ -1,8 +1,39 @@
-body {
-    background-color: beige;
-}
-
 h3 {
     color: green;
     font-size: small;
+}
+
+p{
+    color:rgb(83, 86, 66);
+}
+
+.paragraph {
+    background-color: rgb(39, 141, 146);
+    color:rgb(83, 86, 66);
+    padding: 5px;
+}
+
+#exclusive-title {
+    background-color: rgb(93, 16, 93) !important;
+    color: yellowgreen;
+    padding: 10px;
+}
+
+/* ORDEM DAS REGRAS: */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.title {
+    border-bottom: 2px solid blue;
+}
+
+#algum-title {
+    border-bottom: 2px solid green; 
+}
+
+.color-name {
+    color: crimson;
+
 }

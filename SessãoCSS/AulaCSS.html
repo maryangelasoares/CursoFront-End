@@ -6,6 +6,7 @@
     <title>Fundamentos de CSS</title>
     <link rel="stylesheet" href="style.css"> <!--External CSS-->
     <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="title.css">
     <!--Internal CSS-->
     <style>
         p{
@@ -42,5 +43,40 @@
         <li>maça</li>
     </ul>
 
+    <!-- Classes -->
+        <!--Pode ter o mesmo nome dentro do HTML | Não são elementos únicos-->
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias quisquam rem soluta totam aperiam culpa 
+        corrupti laboriosam eaque vitae aspernatur earum sapiente voluptatem non ab dolor, nemo ex! Praesentium.</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias quisquam rem soluta totam aperiam culpa 
+        corrupti laboriosam eaque vitae aspernatur earum sapiente voluptatem non ab dolor, nemo ex! Praesentium.</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias quisquam rem soluta totam aperiam culpa 
+        corrupti laboriosam eaque vitae aspernatur earum sapiente voluptatem non ab dolor, nemo ex! Praesentium.</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias quisquam rem soluta totam aperiam culpa 
+        corrupti laboriosam eaque vitae aspernatur earum sapiente voluptatem non ab dolor, nemo ex! Praesentium.</p>
+
+    <!-- ID's -->
+    <!--Não pode ter o mesmo nome dentro do HTML | São elementos únicos-->
+    <h1 id="exclusive-title"> Este é um título com #ID!</h1>
+
+    <!-- Múltiplas Regras e Ordem CSS -->
+     <h2 id="algum-title" class="title"> Algum Texto Aqui!</h2>
+     <h2 class="title"> Algum Texto Aqui!</h2>
+     <h2> Algum Texto Aqui!</h2>
+
+     <!-- CORES NO CSS -->
+      <!-- Não se usa mais nomes de cores, como: blue, red, green e etc.. -->
+       <!-- 
+        HEXADECIMAL é o mais utilizando:
+        # XX XX XX : Os dois primeiros representam tom de vermelho, depois de verde e por fim, azul.
+        OBS.: Usa-se as misturas dessas cores para chegar nas cores definidas.
+            #0 => mais escuro;
+            #F => mais claro;
+            
+            #FFFFFF = #FFF;
+            #112233 = #123;
+            caso se repitam os valores, podem ser reescritos, como o exemplo acima!
+       -->
+
+       <p class="color-name">Qualquer nome de cor aqui!!</p>
 </body>
 </html>
